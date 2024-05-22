@@ -1,6 +1,6 @@
 <div align="center">
   
-**Privacy Preserving Evaluation of Sensitive Population Record Linkage Without Ground Truth Data**
+## Privacy Preserving Evaluation of Sensitive Population Record Linkage Without Ground Truth Data**
 </div>
 
 This repository hosts the code and data used in an experimental evaluation, which applies a novel method to estimate the quality of group record linkage results in situations where no ground truth data are available.
@@ -10,7 +10,7 @@ Notably, our experimental results showed that the estimated quality evaluations 
 
 ## Overview of Our Evaluation Method
 
-This experiment used four real-world census data sets (the public data sets) and one birth dataset (the census data set), and each cluster in both datasets was encoded into a vector representation using Bloom Filters. The process includes the following four key steps:
+This experiment used four real-world census datasets (the public data sets) and one birth dataset (the census data set), and each cluster in both datasets was encoded into a vector representation using Bloom Filters. The process includes the following four key steps:
 
 -  Compare pairs of encoded Bloom Filters from the census and birth datasets to obtain a similarity score for each compared cluster pair, and then apply a greedy many-to-many matching across the compared cluster pairs.
 
