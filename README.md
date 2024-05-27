@@ -1,6 +1,6 @@
 <div align="center">
   
-## Privacy Preserving Evaluation of Sensitive Population Record Linkage Without Ground Truth Data
+## Privately Evaluating Sensitive Population Record Linkage Without Ground Truth Data
 </div>
 
 This repository hosts the code and data used in an experimental evaluation, which applies a novel method to estimate the quality of group record linkage results in situations where no ground truth data are available.
